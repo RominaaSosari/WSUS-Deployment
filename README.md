@@ -14,9 +14,13 @@ This lab demonstrates the deployment of a Windows Server Update Server (WSUS) in
 *All machines are joined to an Active Directory Domain.
 
 ## Lab Environment 
+
 -Hypvervisor: Microsoft Hyper-V
+
 -WSUS Port: 8530(HTTP)
+
 -Clients configured via Domain Group Policy
+
 
 ## Design
 
