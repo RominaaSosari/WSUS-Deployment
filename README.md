@@ -2,9 +2,13 @@
 
 ## Overview
 This lab demonstrates the deployment of a Windows Server Update Server (WSUS) infrastructure in a domain environment using:
+
 -Windows Server (Primary WSUS Server)
+
 -Windows Server (Domain Controller)
+
 -Windows Server Core (Downstream WSUS - Autonomous Mode)
+
 -2 Windows 10 Clients
 
 *All machines are joined to an Active Directory Domain.
