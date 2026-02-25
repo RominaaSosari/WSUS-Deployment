@@ -44,7 +44,7 @@ This lab demonstrates the deployment of a Windows Server Update Server (WSUS) in
 
 -Installed on Windows Server Core
 
--Configured as **Autonomous Downstream Server** --> images/Set-WSUS2CORE-as-Autonomous.PNG
+-Configured as **Autonomous Downstream Server** --> images/Set-WSUS2CORE-as-Autonomous.PNG & images/WSUS2-Downstream.PNG
 
 -Synchronizes updates from Primary WSUS
 
