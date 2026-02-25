@@ -11,7 +11,7 @@ This lab demonstrates the deployment of a Windows Server Update Server (WSUS) in
 
 -2 Windows 10 Clients
 
-*All machines are joined to an Active Directory Domain. --> (images/Computers-Join-to-Domain.PNG)
+*All machines are joined to an Active Directory Domain.
 
 ## Lab Environment 
 
@@ -30,25 +30,22 @@ This lab demonstrates the deployment of a Windows Server Update Server (WSUS) in
 
 -Configured for:
 
-   -Products & Classification 
-
-   [Products] --> images/Installed-Products.PNG
+   -Products & Classification
    
+   -Synchronization manually 
    
-   -Synchronization manually --> images/Synchronization-Schedule.PNG
-   
-   -Update Approvals --> images/Approved-Updates.PNG
+   -Update Approvals
    
    
 ### Downstream WSUS (Server Core)
 
 -Installed on Windows Server Core
 
--Configured as **Autonomous Downstream Server** --> images/Set-WSUS2CORE-as-Autonomous.PNG & images/WSUS2-Downstream.PNG
+-Configured as **Autonomous Downstream Server** 
 
 -Synchronizes updates from Primary WSUS
 
--Managed remotely through WSUS Console installed on Desktop Experience Server --> images/Console-WSUS2Core.PNG
+-Managed remotely through WSUS Console installed on Desktop Experience Server 
 
 
 ### Domain Controller
@@ -63,7 +60,7 @@ This lab demonstrates the deployment of a Windows Server Update Server (WSUS) in
 
 -Receive WSUS configuration via Group Policy 
 
--Download Updates from Primary WSUS Server --> images/Connceted-Clients.PNG
+-Download Updates from Primary WSUS Server
 
 ## Group Policy Configuration
 
@@ -75,4 +72,34 @@ Enabled settings:
 
 **Specify Intranet Microsoft Update Servive Location**:
 
-WSUS Server: http://WSUS-Server.Domain-Name.com:8530 --> --> images/GPO-Config-Win1&Win2.PNG
+WSUS Server: http://WSUS-Server.Domain-Name.com:8530 
+
+## Clients in Domain
+
+![Clients Joined] (images/Computers-Join-to-Domain.PNG)
+
+## WSUS Products & Classification
+
+![Installed Products] (images/Installed-Products.PNG)
+
+## Sync Schedule 
+
+![Sync Schedule] (images/Synchronization-Schedule.PNG)
+
+## Downstream WSUS 
+
+![Downstream WSUS] (images/WSUS2-Downstream.PNG)
+
+## Approved vs Unapproved Updates
+
+![Approved Updates] (images/Approved-Updates.PNG)
+
+![Unapproved Updates] (images/Unapproved-Updates.PNG)
+
+## Connected Clients 
+![Connected Clients] (images/Connceted-Clients.PNG)
+
+## Result 
+A functional WSUS infrastrucuture with autonomous downstream and client updates successfully configured.
+
+
