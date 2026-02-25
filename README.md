@@ -83,6 +83,8 @@ WSUS Server: http://WSUS-Server.Domain-Name.com:8530
 
 ![Installed Products](images/Installed-Products.PNG)
 
+![Installed Classification](images/Installed-Classification.PNG)
+
 ## Sync Schedule 
 
 ![Sync Schedule](images/Synchronization-Schedule.PNG)
