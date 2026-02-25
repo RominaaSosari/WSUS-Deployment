@@ -73,31 +73,32 @@ Enabled settings:
 **Specify Intranet Microsoft Update Servive Location**:
 
 WSUS Server: http://WSUS-Server.Domain-Name.com:8530 
+![url WSUS Server](images/GPO-Config-Win1&Win2.PNG)
 
 ## Clients in Domain
 
-![Clients Joined] (images/Computers-Join-to-Domain.PNG)
+![Clients Joined](images/Computers-Join-to-Domain.PNG)
 
 ## WSUS Products & Classification
 
-![Installed Products] (images/Installed-Products.PNG)
+![Installed Products](images/Installed-Products.PNG)
 
 ## Sync Schedule 
 
-![Sync Schedule] (images/Synchronization-Schedule.PNG)
+![Sync Schedule](images/Synchronization-Schedule.PNG)
 
 ## Downstream WSUS 
 
-![Downstream WSUS] (images/WSUS2-Downstream.PNG)
+![Downstream WSUS](images/WSUS2-Downstream.PNG)
 
 ## Approved vs Unapproved Updates
 
-![Approved Updates] (images/Approved-Updates.PNG)
+![Approved Updates](images/Approved-Updates.PNG)
 
-![Unapproved Updates] (images/Unapproved-Updates.PNG)
+![Unapproved Updates](images/Unapproved-Updates.PNG)
 
 ## Connected Clients 
-![Connected Clients] (images/Connceted-Clients.PNG)
+![Connected Clients](images/Connceted-Clients.PNG)
 
 ## Result 
 A functional WSUS infrastrucuture with autonomous downstream and client updates successfully configured.
